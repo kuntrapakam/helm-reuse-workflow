@@ -27,4 +27,6 @@ jobs:
           pwd
           ls -ltrha
       - name: helm package
-        run: helm template .
+        run: |
+          cd application
+          helm template .

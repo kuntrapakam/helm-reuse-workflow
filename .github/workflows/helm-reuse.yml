@@ -28,7 +28,7 @@ jobs:
           ls -ltrha
       - name: helm package
         run: |
-          cd application
+          cd ~/application
           pwd
           ls -ltrha
           helm template .

@@ -2,6 +2,8 @@ name: helm reuse workflow
 
 on:
   workflow_dispatch:
+  push:
+    branches: main
 
 jobs:
   helm-reuse:

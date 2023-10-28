@@ -28,7 +28,9 @@ jobs:
           ls -ltrha
       - name: helm package
         run: |
-          cd ${{github.action_path}}/application
+          pwd
+          ls -ltrha
+          cd application
           pwd
           ls -ltrha
           helm template .

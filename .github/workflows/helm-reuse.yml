@@ -32,7 +32,7 @@ jobs:
         run: |
           pwd
           ls -ltrha
-          cd ./application
+          cd ./application/application
           pwd
           ls -ltrha
           helm template .

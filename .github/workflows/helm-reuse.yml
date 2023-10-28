@@ -35,4 +35,4 @@ jobs:
           cd ./application/application
           pwd
           ls -ltrha
-          helm install test . --dry-run
+          helm install test . --dry-run --debug

@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: true
           ref: main
-          path: application
+          path: .
       - name: getting location
         run: |
           pwd
